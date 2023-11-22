@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MobiDocDesc</title>
+    <link rel="stylesheet" href="mobidocstyle.css">
+</head>
+<body>
+    <nav id="desktop-nav">
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="About-Us">
+        <div class="centered">
+            <h1>About MobiDoc</h1>
+            <div class="Justified">
+                <p>An IoT based health monitoring system that is used to monitor a person’s 
+                    heart rate and body temperature 
+                    by using the ESP32 NodeMCU microcontroller and its compatible sensors.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="slideshow">
+    
+        <div class="centered">
+          <div class="slideshow-box">
+              <div class="slideshow-container">
+                <div style="text-align:center">
+                 </div>
+                    <div class="mySlides fade">
+                      <img src="./assets/mobidoct.jpg" style="width:100%">
+                      <p>BreadBoard Wirings</p>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="./assets/UIMobi.png" style="width:100%">
+                      <p>UI for mobile</p>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="./assets/concept of operation.png" style="width:100%">
+                      <p>Concept of operation</p>
+                    </div>
+                  
+                    <div class="mySlides fade">
+                      <img src="./assets/concept of operation2.png" style="width:100%">
+                      <p>Concept of operation 2</p>
+                    </div>
+                </div>
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span> 
+                <span class="dot" onclick="currentSlide(3)"></span> 
+                <span class="dot" onclick="currentSlide(4)"></span> 
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="mobidocscript.js"></script>
+</body>
+</html>
